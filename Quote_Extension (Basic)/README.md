@@ -48,3 +48,10 @@ Here is the directory structure of the extension:
 ```
 
 ## Output Images
+![image1](https://github.com/user-attachments/assets/47c909cb-2be9-4db4-b54b-95bdecab7884)
+
+![lightmode](https://github.com/user-attachments/assets/4c912da7-f1fa-416d-9f99-e4b0aa5dcc4d)
+
+![darkmode](https://github.com/user-attachments/assets/779f1af7-5faa-4192-b0a0-c848ebb33e05)
+
+
