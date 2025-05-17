@@ -1,0 +1,72 @@
+:root {
+  --bg: #f4f4f4;
+  --text: #333;
+  --button-bg: #007BFF;
+  --button-hover: #0056b3;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  width: 300px;
+  height: 250px;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  --bg: #1e1e1e;
+  --text: #f1f1f1;
+  --button-bg: #444;
+  --button-hover: #666;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+blockquote {
+  font-size: 1rem;
+  margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  background-color: var(--button-bg);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.message {
+  font-size: 0.8rem;
+  color: green;
+  height: 20px;
+  margin: 5px 0;
+  transition: opacity 0.3s;
+}
+
+.message.hidden {
+  opacity: 0;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
