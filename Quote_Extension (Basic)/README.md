@@ -39,7 +39,6 @@ The extension will now be installed. You can click on the extension icon in the 
 Here is the directory structure of the extension:
 ```
     quote-popup-extension/
-    │
     ├── manifest.json
     ├── popup.html
     ├── popup.js

@@ -1,0 +1,149 @@
+:root {
+  --bg: #ffffff;
+  --fg: #111111;
+  --accent: #4f46e5;
+  --accent-hover: #3b37c9;
+  --button-bg: #e2e8f0;
+  --button-hover: #cbd5e1;
+  --icon-bg: #f1f5f9;
+}
+
+body.dark {
+  --bg: #1e293b;
+  --fg: #f1f5f9;
+  --button-bg: #334155;
+  --button-hover: #475569;
+  --icon-bg: #0f172a;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  color: var(--fg);
+  width: 480px;
+  min-height: 500px;
+  padding: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+  box-sizing: border-box;
+}
+
+/* Header layout */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Theme toggle button */
+#theme-toggle {
+  background-color: var(--button-bg);
+  border: none;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 0.4rem;
+  transition: background-color 0.3s;
+}
+
+#theme-toggle:hover {
+  background-color: var(--button-hover);
+}
+
+/* Search input */
+#search {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.6rem;
+  margin-top: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: var(--icon-bg);
+  color: var(--fg);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Tabs list */
+#tab-list {
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+/* Tab item */
+#tab-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--button-bg);
+  padding: 0.6rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#tab-list li:hover {
+  background-color: var(--button-hover);
+}
+
+/* Tab info (title/url) */
+.tab-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-grow: 1;
+  font-size: 0.9rem;
+  margin-right: 8px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Tab actions: Copy and Close */
+.tab-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.tab-actions button {
+  border: none;
+  padding: 4px 6px;
+  border-radius: 4px;
+  background-color: var(--accent);
+  color: white;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background-color 0.3s;
+}
+
+.tab-actions button:hover {
+  background-color: var(--accent-hover);
+}
+
+.domain-header {
+  font-size: 0.95rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  color: var(--accent);
+}
+
+.favicon {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+#bookmark-dropdown {
+  width: 100%;
+  margin-top: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
