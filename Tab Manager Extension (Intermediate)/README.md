@@ -39,7 +39,7 @@ A powerful and minimalistic Chrome extension to help you manage your tabs more e
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/smart-tab-manager.git
+   git clone https://github.com/kaushik0010/Chrome-Extension-Development.git
 
 2. Open Chrome and go to:
     chrome://extensions
