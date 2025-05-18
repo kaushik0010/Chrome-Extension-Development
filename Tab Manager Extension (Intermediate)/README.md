@@ -69,6 +69,17 @@ A powerful and minimalistic Chrome extension to help you manage your tabs more e
 - storage: For future settings or saved state handling.
 
 ## 📷 Screenshots
+#### Main Screen
+![HomeScreen](https://github.com/user-attachments/assets/980534a7-d922-4cdc-a8d6-601c349e1dd0)
+#### Dark Mode
+![darkMode](https://github.com/user-attachments/assets/e930c4c7-9445-4547-bb06-a0c2ce80bb25)
+#### Search Tabs
+![searchTabs](https://github.com/user-attachments/assets/30a3d753-b637-43a7-9aa7-5e15f5b5d091)
+#### Pin Tabs
+![pinTabs](https://github.com/user-attachments/assets/55aa712a-4593-4646-aecc-d02f13fbb8f1)
+#### Bookmarked Tabs
+![bookmarkTabs](https://github.com/user-attachments/assets/d9c4adae-ffd5-43d2-9324-98bb4129b656)
+
 
 ### 🙌 Contributions
 Contributions, suggestions, and pull requests are welcome!
